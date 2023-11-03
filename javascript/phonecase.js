@@ -21,9 +21,11 @@ document.getElementById('case-plus').addEventListener("click", function () {
     const newCaseQuantity = phoneCaseupdate(true);
 
     updateTotalCasePrice(newCaseQuantity);
+    calculateSubtotal();
 })
 document.getElementById('case-minus').addEventListener("click", function () {
     const newCaseQuantity = phoneCaseupdate(false);
 
     updateTotalCasePrice(newCaseQuantity);
+    calculateSubtotal();
 })
