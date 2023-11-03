@@ -24,6 +24,4 @@ function calculateSubtotal() {
     setTextElementbyId('tax',taxAmount);
     const finalAmount=currentSubTotal+taxAmount;
     setTextElementbyId('final-amount',finalAmount)
-
-
 }
